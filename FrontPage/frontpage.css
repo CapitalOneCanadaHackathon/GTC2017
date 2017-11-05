@@ -6,11 +6,22 @@
 				 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
+.img {
+	background-image: url("https://images.unsplash.com/photo-1488470015861-8bb1317353ef?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+	height: auto;
+	width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.6;
+}
+
 body {
-  	background-image: url("https://images.unsplash.com/photo-1488470015861-8bb1317353ef?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
-    background-position: center; 
-  	background-repeat: no-repeat;
-  	background-size: cover;
     font-family: Lato;
     color: white;
 }
@@ -32,4 +43,5 @@ hr {
 
 .btn {
 	background: #9C9C9C;
+	color: white;
 }
