@@ -3,6 +3,28 @@ html {
 }
 
 
+.container .image {
+  background-image: url("https://images.unsplash.com/photo-1488470015861-8bb1317353ef?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  height: auto;
+  width: 100%;
+  top: 50px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.6;
+}
+
+
+.container .col-xs-4 .btn-success {
+  color: white;
+  background-color: #446047;
+  border: #446047;
+  max-height: 5%;
+}
 
 body{
   background-position: center;
@@ -21,39 +43,7 @@ body{
 
 
 
-#bar{
-  margin-left:0px;
 
-}
-
-.head ul {
-  list-style-type: none;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid white;
-  background-color: white;
-}
-
-.head li {
-  float: right;
-}
-
-.head li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  background-color: white;
-  text-decoration: none;
-}
-
-.head li a:hover {
-  background-color: #d1d8d8;
-}
 
 .logmod::after {
   clear: both;
