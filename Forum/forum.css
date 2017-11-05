@@ -1,0 +1,39 @@
+.list-group {
+	align-self: left;
+	width: 350px;
+
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background: url(https://images.unsplash.com/photo-1488470015861-8bb1317353ef?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+	position: fixed;
+	
+}
+
+#topics {
+	height: 100vh;
+	width: 350px;
+	background: white;
+	
+
+}
+
+
+.parent {
+	float: left;
+	margin: 10px;
+	list-style: none;
+}
+
+.jumbotron {
+	width: 800px;
+	margin-right: 20px;
+}
