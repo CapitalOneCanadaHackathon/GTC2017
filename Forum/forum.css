@@ -26,14 +26,15 @@ body {
 
 }
 
+.jumbotron {
+	width: 800px;
+	background-position: center;
+	margin-right: 20px;
+}
 
-.parent {
+.jumbotron parent {
 	float: left;
 	margin: 10px;
 	list-style: none;
 }
 
-.jumbotron {
-	width: 800px;
-	margin-right: 20px;
-}
