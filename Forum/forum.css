@@ -20,14 +20,14 @@ body {
 	
 }
 
+
+
 #top {
 	width: 90%;
 	margin: 5%;
 	height: 90%;
 	margin-bottom: 70px;
-	font-family: Lora;
 }
-
 
 .parent {
 	float: left;
@@ -57,20 +57,6 @@ span {
 
 .tron {
 	width: 70%;
-}
-
-/* the master and mcont is only for medical */
-.master {
-	margin-left: 0%;
-	margin-bottom: 10%;
-	padding-top: 0%;
-	background: #446047;
-}
-
-#mcont {
-	margin-left: 0%;
-	padding-left: 5%;
-	color: white;
 }
 
 .jumbotron {
