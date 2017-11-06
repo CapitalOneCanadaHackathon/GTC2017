@@ -1,47 +1,94 @@
-#content {
-	text-align: center;
-	padding-top: 25%;
-	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
-				 0px 8px 13px rgba(0, 0, 0, 0.1),
-				 0px 18px 23px rgba(0, 0, 0, 0.1);
-}
 
-.img {
-	background-image: url("https://images.unsplash.com/photo-1488470015861-8bb1317353ef?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: fixed;
-	height: auto;
-	width: 100%;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	opacity: 0.6;
-}
-
-body {
-    font-family: Lato;
-    color: white;
-}
 
 html {
 	height: 100%;
+	width: 100%;
 }
 
-h1 {
-	font-weight: 600;
-	font-size: 5em;
+body {
+	height: 100%;
+	width: 100%;
+	background: url(https://images.unsplash.com/photo-1488470015861-8bb1317353ef?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+
+	position: fixed;
+	padding-top: 70px;
+	font-family: Lato;
+	padding-bottom: 70px;
+	
 }
 
-hr {
-	width: 400px;
-	border-top: 1px solid #f8f8f8;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+#top {
+	width: 90%;
+	margin: 5%;
+	height: 90%;
+	margin-bottom: 70px;
+	font-family: Lora;
 }
 
-.btn {
-	background: #9C9C9C;
+
+.parent {
+	float: left;
+	list-style: none;
+}
+
+.list {
+	width: 25%;
+}
+
+#topics {
+	height: 100vh;
+	width: 100%;
+	background: white;
+}
+
+.list-group {
+	align-self: left;
+	width: 100%;
+}
+
+span {
+	width: 20%;
+	margin-bottom: 1%;
+	margin-right: 1%;
+}
+
+.tron {
+	width: 70%;
+}
+
+/* the master and mcont is only for medical */
+.master {
+	margin-left: 0%;
+	margin-bottom: 10%;
+	padding-top: 0%;
+	background: #446047;
+}
+
+#mcont {
+	margin-left: 0%;
+	padding-left: 5%;
 	color: white;
 }
+
+.jumbotron {
+	width: 100%;
+}
+
+.annoying {
+	width: 90%;
+	margin-left: 10%;
+}
+
+#meh {
+	width: 150px;
+	align-self: centre;
+	margin-left: 10%;
+}
+
+
+
+
+/* navbar, links, font */
