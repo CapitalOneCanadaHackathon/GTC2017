@@ -1,0 +1,13 @@
+.container .jumbotron {
+    background-image: url("https://images.unsplash.com/photo-1488470015861-8bb1317353ef?auto=format&fit=crop&w=1050&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.container .col-xs-4 .btn-success {
+    color: white;
+    background-color: #446047;
+    border: #446047;
+}
+
